@@ -1,0 +1,77 @@
+
+.hero-wrapper {
+  width: 100%;
+  background-color: var(--primary-dark-blue-intro-email-bg);
+  min-height: 1267px;
+  padding: 7.3rem 8rem 0 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../assets/images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+}
+.hero-image-container {
+  text-align: center;
+  margin-top: 7.2rem;
+}
+.hero-img{
+    width: 100%;
+}
+.hero-text-container {
+  max-width: 685px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.hero-title{
+    font-size: 3.92rem;
+    letter-spacing: .032rem;
+    line-height: 6rem;
+    margin-top: 3.2rem;
+}
+.hero-parag{
+    margin-top: 3.25rem;
+    font-size: 1.85rem;
+    font-weight: 400;
+    line-height: 3.008rem;
+    letter-spacing: .07rem;
+    max-width: 615px;
+}
+.link{
+    max-width: 280px;
+    width: 100%;
+    height: 56px;
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5.6rem;
+    letter-spacing: .015em;
+    background-image: linear-gradient(45deg,
+            hsl(176deg 68% 64%) 0%,
+            hsl(188deg 68% 52%) 50%,
+            hsl(198deg 60% 50%) 100%); 
+    font-weight: 500; 
+    font-size: 1.4rem; 
+    cursor: pointer;  
+    color: var(--neutral-white); 
+    transition: .3s ease-in-out;
+      
+}
+.link:hover{
+  background-image: none;
+  background-color: inherit;
+  border: 1px solid var(--accent-cyan-cta-gradient);
+}

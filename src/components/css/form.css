@@ -1,0 +1,113 @@
+:root {
+  /* Primary */
+  --primary-dark-blue-intro-email-bg: hsl(217, 28%, 15%);
+  --primary-dark-blue-main-bg: hsl(218, 28%, 13%);
+  --primary-dark-blue-footer-bg: hsl(216, 53%, 9%);
+  --primary-dark-blue-testimonials-bg: hsl(219, 30%, 18%);
+
+  /* Accent */
+  --accent-cyan-cta-gradient: hsl(176, 68%, 64%);
+  --accent-blue-cta-gradient: hsl(198, 60%, 50%);
+  --accent-light-red-error: hsl(0, 100%, 63%);
+
+  /* Neutral */
+  --neutral-white: hsl(0, 0%, 100%);
+}
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rem;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 863px;
+  width: 100%;
+  min-height: 275px;
+  position: relative;
+  background-color: var(--primary-dark-blue-intro-email-bg);
+  border-radius: .64rem;
+  text-align: center;
+  padding: 3.6rem 7.6rem 1.5rem 7.6rem;
+}
+.form-title{
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 5.5rem;
+    letter-spacing: .03rem;
+
+    /* margin-top: -1rem; */
+}
+.form-parag{
+    font-size: 1.42rem;
+    max-width: 630px;
+    line-height: 1.45;
+    margin-top: 1.45rem;
+    letter-spacing: -.01rem;
+}
+.form-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3.75rem;
+    gap: 2.9rem;
+}
+.field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+input{
+    width: 480px;
+    /* width: 100%; */
+    height: 48px;
+    border: none;
+    padding-left: 3.8rem;
+    border-radius: 5.6rem;
+    font-size: 1.26rem;
+    padding-top: 1px;
+    cursor: pointer;
+    
+}
+input::placeholder{
+    color: lightgray;
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+    border: 1px solid var(--accent-blue-cta-gradient);
+}
+.link.form-btn{
+    width: 200px;
+/* width: 100%; */
+    margin-top: 0;
+    height: 48px;
+    border: none;
+letter-spacing: .03rem;
+padding-bottom: 3px;
+padding-left: 4px;
+}
+
+.error-message {
+  color: var(--accent-light-red-error);
+  font-size: 1.3rem;
+  position: absolute;
+  left: 3.8rem;
+  bottom: -2.5rem;
+}
+.error-border{
+    border: 2px solid var(--accent-light-red-error);
+    /* background-color: var(--accent-light-red-error); */
+}
+.link.form-btn:hover{
+    background-image: none;
+    background-color: inherit;
+    border: 1px solid var(--accent-blue-cta-gradient);
+  }

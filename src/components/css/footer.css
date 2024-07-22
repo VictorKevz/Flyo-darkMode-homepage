@@ -1,0 +1,124 @@
+
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 514px;
+    background-color: var(--primary-dark-blue-footer-bg);
+    margin-top: -11.9rem;
+    padding: 0 8.2rem 0 12rem;
+  }
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    margin-top: 10.5rem;
+    gap: 3.5rem;
+  }
+
+  .footer-inner-container {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    width: 100%;
+    position: relative;
+    
+  }
+  .location-container,.phone-container,.email-container,.socials-container{
+    display: flex;
+    align-items: center;
+  }
+  .location-container{
+    gap: 2.4rem;
+    align-items: flex-start;
+    margin-right: 9.5rem;
+
+
+  }
+  .location-parag{
+    max-width: 330px;
+    font-size: 1.6rem;
+    letter-spacing: .0105rem;
+    margin-left: 1px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: -2px;
+  }
+  .location-icon{
+    margin-top: 6px;
+  }
+  .contanct-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+    margin-right: 14.8rem;
+
+
+  }
+  .phone-container,.email-container{
+    gap: 2.1rem;
+  }
+  .phone-parag{
+    font-size: 1.4rem;
+    margin-left: 5px;
+  }
+  .email-icon{
+    margin-left: -3px;
+    margin-top: 2px;
+  }
+  .email-parag{
+    margin-left: 2px;
+    margin-top: -2px;
+    font-size: 1.4rem;
+  }
+  .first-list-container,.second-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+  }
+ .first-list-container{
+    margin-right: 8rem;
+ }
+  .footer-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: fit-content;
+    transition: .20s ease-in;
+  }
+  .socials-container{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-left: auto;
+    margin-top: -2px;
+
+}
+.react-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    padding: 6px;
+}
+
+.react-icons:hover {
+    cursor: pointer;
+    color: var(--accent-cyan-cta-gradient);
+    border: 1px solid var(--accent-cyan-cta-gradient);
+    transform: scale(1.5);
+
+  }
+  
+  .footer-link:hover {
+    transition: .20s ease-in;
+    font-weight: 800;
+
+  }
